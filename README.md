@@ -1,3 +1,3 @@
-publishing to gh-pages
+# byvernacchia.com
 
-https://gist.github.com/cobyism/4730490
+my personal website
