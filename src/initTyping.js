@@ -5,7 +5,7 @@ const QUICKER_SPEED = DEFAULT_SPEED - 10;
 const QUICKEST_SPEED = DEFAULT_SPEED - 20;
 const DEFAULT_PAUSE = 800;
 const SHORTER_PAUSE = 600;
-const typitElementId = "#its-me";
+const typeItElementId = "#its-me";
 const linksElementId = "#links";
 
 const showLinks = () => {
@@ -20,7 +20,7 @@ export default () => {
   const jokeText = "I like long walks on the beach, poetry, and sunsets";
   const whoopsText = "Whoops, wrong site...";
 
-  const typeItInstance = new TypeIt(typitElementId, {
+  const typeItInstance = new TypeIt(typeItElementId, {
     speed: DEFAULT_SPEED,
     cursorChar: "_",
     autoStart: false,
