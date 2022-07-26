@@ -3,19 +3,23 @@
   "version": "1.0.0",
   "description": "personal website",
   "author": "Alex Vernacchia",
-  "main": "index.js",
   "license": "MIT",
   "private": true,
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "dev": "parcel index.html -p 8080",
+    "serve": "serve -p 8080 dist/",
     "build": "rm -rf ./dist && parcel build index.html"
   },
-  "devDependencies": {
-    "@parcel/config-default": "^2.6.2",
-    "@parcel/transformer-svg": "^2.6.2",
+  "dependencies": {
     "normalize.css": "^8.0.0",
     "parcel": "^2.6.2",
     "tippy.js": "^6.2.4",
     "typeit": "^5.10.7"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.6.2",
+    "@parcel/transformer-svg": "^2.6.2",
+    "serve": "^14.0.1"
   }
 }
