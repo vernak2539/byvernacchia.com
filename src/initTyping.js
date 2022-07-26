@@ -48,5 +48,6 @@ export default () => {
       '<span class="sub-text">focusing on front-end web development </span>'
     )
     .pause(SHORTER_PAUSE)
-    .type('<span class="sub-text">#nerd</span>');
+    .type('<span class="sub-text">#nerd</span>')
+    .go();
 };

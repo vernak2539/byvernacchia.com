@@ -1887,10 +1887,10 @@ type-fest@^2.13.0:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-2.17.0.tgz#c677030ce61e5be0c90c077d52571eb73c506ea9"
   integrity sha512-U+g3/JVXnOki1kLSc+xZGPRll3Ah9u2VIG6Sn9iH9YX6UkPERmt6O/0fIyTgsd2/whV0+gAaHAg8fz6sG1QzMA==
 
-typeit@^5.10.7:
-  version "5.10.7"
-  resolved "https://registry.yarnpkg.com/typeit/-/typeit-5.10.7.tgz#4df9eb16c55ab7afcbfa51b745621ad2f8aa7abc"
-  integrity sha512-CXO2Z4NsCjYJ/18R8mwhOlPUVOtynPw+qE15sZX0pWXUuC9smADKYPAuWTbjUoJNUr6c1Xqlz05emgAhZojJ6g==
+typeit@^8.7.0:
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/typeit/-/typeit-8.7.0.tgz#97f1e62c12543a7df9b9ca2c45cf6d27c050d777"
+  integrity sha512-MeraWJAquZr0EPo2yRYQnSdAxIuzgS5s4JEvzOdp63ZRRpETxtiHYvCJiK4aJA6FuScz3oUJkjmjQsLrx6VOMA==
 
 update-browserslist-db@^1.0.4:
   version "1.0.5"

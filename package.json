@@ -15,7 +15,7 @@
     "normalize.css": "^8.0.0",
     "parcel": "^2.6.2",
     "tippy.js": "^6.2.4",
-    "typeit": "^5.10.7"
+    "typeit": "^8.7.0"
   },
   "devDependencies": {
     "@parcel/config-default": "^2.6.2",
