@@ -1,8 +1,8 @@
 import githubSvg from "./svg/github.svg";
 import codingBlogSvg from "./svg/coding.svg";
-import exploringBlogSvg from "./svg/exploring.svg";
-import instagramSvg from "./svg/instagram.svg";
-import fiveHundredPixelsSvg from "./svg/500px.svg";
+import exploringBlogSvg from "jsx:./svg/exploring.svg";
+import instagramSvg from "jsx:./svg/instagram.svg";
+import fiveHundredPixelsSvg from "jsx:./svg/500px.svg";
 
 export default () => {
   const codingBlogIconContainer = document.querySelector("#icon-blog-code");
@@ -15,9 +15,11 @@ export default () => {
     "#icon-five-hundred-pixels"
   );
 
-  codingBlogIconContainer.innerHTML = codingBlogSvg;
-  exploringBlogIconContainer.innerHTML = exploringBlogSvg;
-  githubIconContainer.innerHTML = githubSvg;
-  instagramIconContainer.innerHTML = instagramSvg;
-  fiveHundredPixelsIconContainer.innerHTML = fiveHundredPixelsSvg;
+  console.log(githubSvg)
+
+  codingBlogIconContainer.src = codingBlogSvg;
+  exploringBlogIconContainer.src = exploringBlogSvg;
+  githubIconContainer.src = githubSvg;
+  instagramIconContainer.src = instagramSvg;
+  fiveHundredPixelsIconContainer.src = fiveHundredPixelsSvg;
 };

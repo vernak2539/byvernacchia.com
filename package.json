@@ -11,9 +11,10 @@
     "build": "rm -rf ./dist && parcel build index.html"
   },
   "devDependencies": {
+    "@parcel/config-default": "^2.6.2",
+    "@parcel/transformer-svg": "^2.6.2",
     "normalize.css": "^8.0.0",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-inlinesvg": "^0.1.1",
+    "parcel": "^2.6.2",
     "tippy.js": "^6.2.4",
     "typeit": "^5.10.7"
   }
