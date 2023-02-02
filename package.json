@@ -13,13 +13,13 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.0",
-    "parcel": "^2.6.2",
+    "parcel": "^2.8.3",
     "tippy.js": "^6.2.4",
     "typeit": "^8.7.0"
   },
   "devDependencies": {
-    "@parcel/config-default": "^2.6.2",
-    "@parcel/transformer-svg": "^2.6.2",
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/transformer-svg": "^2.8.3",
     "serve": "^14.0.1"
   }
 }
