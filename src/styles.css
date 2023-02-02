@@ -10,7 +10,8 @@ body {
   height: 100vh;
   justify-content: center;
   text-align: center;
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .header {
@@ -38,15 +39,9 @@ body {
 
 .links-top {
   display: grid;
-  grid-template-columns: 33% 34% 33%;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
-.links-bottom {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  border-top: 1px solid #ccc;
-  display: none;
-}
 
 .links .link {
   cursor: pointer;
