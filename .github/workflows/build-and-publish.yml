@@ -21,7 +21,7 @@ jobs:
         run: yarn build
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: $GITHUB_WORKSPACE/dist
+          path: ./dist
 
   deploy:
     needs: build
