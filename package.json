@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "parcel index.html -p 8080",
     "serve": "serve -p 8080 dist/",
-    "build": "rm -rf ./dist && parcel build index.html && cp surprise.html ./dist"
+    "build": "./bin/build.sh"
   },
   "dependencies": {
     "normalize.css": "^8.0.0",
