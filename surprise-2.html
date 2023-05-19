@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SURPRISE</title>
+    <style>
+      body {
+        height: 100vh;
+        width: 100%;
+        background: #000;
+      }
+
+      .container {
+        height: 100vh;
+        width: 700px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+      }
+
+      .face-container {
+        position: relative;
+        height: 525px;
+        width: 700px;
+        background-image: url("./assets/face.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+
+      .mouth-container {
+        position: absolute;
+        bottom: 19px;
+        left: 290px;
+        width: 127px;
+        height: 139px;
+        margin: 0 auto;
+        background-image: url("./assets/bottom-mouth.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+
+      .animate {
+        animation-name: bounce;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+
+      @keyframes bounce {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(50px) translateX(-5px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="face-container">
+        <div class="mouth-container animate"></div>
+      </div>
+    </div>
+  </body>
+</html>
