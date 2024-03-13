@@ -8,9 +8,8 @@ export default () => {
   const githubIconContainer = document.querySelector("#icon-github");
   const instagramIconContainer = document.querySelector("#icon-instagram");
   const fiveHundredPixelsIconContainer = document.querySelector(
-    "#icon-five-hundred-pixels"
+    "#icon-five-hundred-pixels",
   );
-
 
   codingBlogIconContainer.src = codingBlogSvg;
   githubIconContainer.src = githubSvg;
