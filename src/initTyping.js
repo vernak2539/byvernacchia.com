@@ -23,7 +23,6 @@ export default () => {
   const typeItInstance = new TypeIt(typeItElementId, {
     speed: DEFAULT_SPEED,
     cursorChar: "_",
-    autoStart: false,
     afterComplete: showLinks,
   });
 
@@ -44,10 +43,8 @@ export default () => {
     .options({ speed: DEFAULT_SPEED })
     .type('<span class="sub-text">I\'m a software engineer</span>')
     .break()
-    .type(
-      '<span class="sub-text">focusing on front-end web development </span>',
-    )
+    .type('<span class="sub-text">focusing on front-end web development</span>')
     .pause(SHORTER_PAUSE)
-    .type('<span class="sub-text">#nerd</span>')
+    .type('<span class="sub-text"> #nerd</span>')
     .go();
 };

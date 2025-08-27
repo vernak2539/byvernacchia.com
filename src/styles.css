@@ -1,3 +1,12 @@
+:root {
+  --ti-cursor-color: #999;
+  --ti-cursor-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --ti-cursor-font-weight: bold;
+  --ti-cursor-font-size: 1.15em;
+  --ti-cursor-line-height: 1.2em;
+  --ti-cursor-transform: translateX(0.025em);
+}
+
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
