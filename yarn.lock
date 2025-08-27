@@ -976,13 +976,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@popperjs/core@npm:^2.9.0":
-  version: 2.11.5
-  resolution: "@popperjs/core@npm:2.11.5"
-  checksum: 10c0/1253c23004dbd69a48f6d0c2febbb9fca2173deab2bdb1d34f46f9870f913b121e7d113a852088544bb2ec175ff6db645169ffc84fad6febc1b533fa052804e1
-  languageName: node
-  linkType: hard
-
 "@swc/core-darwin-arm64@npm:1.13.5":
   version: 1.13.5
   resolution: "@swc/core-darwin-arm64@npm:1.13.5"
@@ -1330,7 +1323,6 @@ __metadata:
     parcel: "npm:^2.15.4"
     prettier: "npm:^3.6.2"
     serve: "npm:^14.2.4"
-    tippy.js: "npm:^6.3.7"
     typeit: "npm:^8.8.7"
   languageName: unknown
   linkType: soft
@@ -2946,15 +2938,6 @@ __metadata:
   version: 2.2.1
   resolution: "term-size@npm:2.2.1"
   checksum: 10c0/89f6bba1d05d425156c0910982f9344d9e4aebf12d64bfa1f460d93c24baa7bc4c4a21d355fbd7153c316433df0538f64d0ae6e336cc4a69fdda4f85d62bc79d
-  languageName: node
-  linkType: hard
-
-"tippy.js@npm:^6.3.7":
-  version: 6.3.7
-  resolution: "tippy.js@npm:6.3.7"
-  dependencies:
-    "@popperjs/core": "npm:^2.9.0"
-  checksum: 10c0/ec3677beb8caec791ee1f715663f28f42d60e0f7250074a047d13d5e6db95fdb6d26d8a3ac16cecb4ebcaf33ae919dbc889cf97948d115e8d3c81518c911b379
   languageName: node
   linkType: hard
 
