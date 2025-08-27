@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "parcel index.html -p 8081",
     "serve": "serve -p 8081 dist/",
-    "build": "./bin/build.sh"
+    "build": "./bin/build.sh",
+    "lint": "prettier --write ."
   },
   "dependencies": {
     "normalize.css": "^8.0.1",

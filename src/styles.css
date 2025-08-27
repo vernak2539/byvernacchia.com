@@ -42,7 +42,6 @@ body {
   grid-template-columns: 25% 25% 25% 25%;
 }
 
-
 .links .link {
   cursor: pointer;
   margin: 0 10px;
