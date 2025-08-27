@@ -7,21 +7,21 @@
   "private": true,
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "dev": "parcel index.html -p 8080",
-    "serve": "serve -p 8080 dist/",
+    "dev": "parcel index.html -p 8081",
+    "serve": "serve -p 8081 dist/",
     "build": "./bin/build.sh"
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "parcel": "^2.12.0",
+    "parcel": "^2.15.4",
     "tippy.js": "^6.3.7",
-    "typeit": "^8.8.3"
+    "typeit": "^8.8.7"
   },
   "devDependencies": {
-    "@parcel/config-default": "^2.12.0",
-    "@parcel/transformer-svg": "^2.12.0",
-    "prettier": "^3.2.5",
-    "serve": "^14.2.1"
+    "@parcel/config-default": "^2.15.4",
+    "@parcel/transformer-svg": "^2.15.4",
+    "prettier": "^3.6.2",
+    "serve": "^14.2.4"
   },
   "packageManager": "yarn@4.1.1"
 }
