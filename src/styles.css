@@ -27,30 +27,41 @@ body {
 }
 
 .links {
-  height: 110px;
+  opacity: 1;
+  max-height: 500px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 15px;
+  row-gap: 25px;
   margin-top: 20px;
-  transition: height 0.8s ease-out;
-  overflow: hidden;
+  transition:
+    max-height 0.8s ease-out,
+    opacity 0.8s ease-out;
 }
 
 .links.collapsed {
-  height: 0;
-}
-
-.links-top {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
 }
 
 .links .link {
   cursor: pointer;
-  margin: 0 10px;
-  padding: 11px;
+  padding: 7px;
+}
+
+.links .link:hover {
+  transform: scale(1.15);
+  transition: transform 0.2s ease-in-out;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  border: 1px solid #999;
 }
 
 .links .link p {
   font-size: 0.8em;
   margin-bottom: 0;
+  color: #666;
 }
 
 .fill-black {
